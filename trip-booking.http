@@ -1,0 +1,218 @@
+###
+
+# curl -X 'POST'
+#Create traveler account
+POST http://luggin-api-prod.test/api/user/login?login=admin@luggin.io&password=password
+accept: */*
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+
+client.test("Request executed successfully", function() {
+  client.assert(response.body.status === true, response.body.data);
+});
+
+ client.global.set("traveler_token",response.body.token);
+ client.log(response.body.token);
+ %}
+
+
+###
+
+# curl -X 'POST'
+#Create traveler account
+POST http://luggin-api-prod.test/api/user/account-setting/set
+accept: */*
+Authorization: Bearer {{traveler_token}}
+Content-Type: application/json
+
+{
+    "allow_notification_sms": true,
+    "allow_notification_mail": false,
+    "allow_notification_push": true
+}
+
+
+###
+#Create sender account
+POST http://luggin-api-prod.test/api/user/register?country_id=237&pseudo={{sender_name}}&last_name={{sender_name}}&first_name=user&phone={{sender_phone}}&email={{sender_name}}@luggin.io&password=password&address=localhost&place_residence=localhost
+accept: */*
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.body.status === true, response.body.data);
+});
+
+ client.global.set("sender_token",response.body.token);
+ client.log(response.body.token);
+ %}
+
+###
+# Create Parcel
+POST http://luggin-api-prod.test/api/user/parcel/add?parcel_restriction=ANY&allow_split=1&departure_city_id=1&departure_date={{departure_date}}&arrival_city_id=2&weight=100&name=Yann%20Yvan&address=Eleveur%20Yaound%C3%A9&phone=0695499969&weight_unit_price=10
+accept: */*
+Authorization: Bearer {{sender_token}}
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="images[]"
+
+
+--WebAppBoundary--
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.body.status === true, response.body.data);
+});
+
+ client.global.set("parcel_id",response.body.data.id);
+ client.log(response.body.data);
+ %}
+
+###
+# Create Trip
+POST http://luggin-api-prod.test/api/user/trip/add?parcel_restriction=ANY&fly_number=kldsjflkjslfks&departure_city_id=1&departure_airport_id=2&departure_date={{departure_date}}&arrival_city_id=2&arrival_date={{arrival_date}}&arrival_airport_id=2&available_weight=100&weight_unit_price=12&auto_accept_booking=1&allow_split_luggage=1
+accept: */*
+Authorization: Bearer {{traveler_token}}
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.body.status === true, response.body.data);
+});
+
+ client.global.set("trip_id",response.body.data.id);
+ client.log(response.body.data);
+ %}
+
+###
+
+# curl -X 'POST'
+#  'http://luggin-api-prod.test/api/user/book/now?initiator=SENDER&weight=12&proposal_unit_price=12&parcel_id=1&trip_id=1'
+#  -H 'accept: */*'
+#  -H 'Authorization: Bearer {{sender_token}}
+#  -d ''
+POST http://luggin-api-prod.test/api/user/book/now?initiator=TRAVELER&weight=12&proposal_unit_price=12&parcel_id={{parcel_id}}&trip_id={{trip_id}}
+accept: */*
+Authorization: Bearer {{traveler_token}}
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.body.status === true, response.body.data);
+});
+
+ client.global.set("request_id",response.body.data.id);
+ client.log(response.body.data);
+ %}
+
+###
+
+POST http://luggin-api-prod.test/api/user/wallet/cash-in?otp=0695499969&phone=695499969&provider_id=2&luggage_request_id={{request_id}}
+accept: */*
+Authorization: Bearer {{sender_token}}
+Content-Type: application/json
+
+{
+    "card_no": "4242 4242 4242 4242",
+    "ccExpiryMonth": 12,
+    "ccExpiryYear": 2024,
+    "cvvNumber": 123
+}
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.body.status === true, response.body.data);
+});
+
+ client.log(response.body.data);
+ %}
+
+###list booking for sender
+
+POST http://luggin-api-prod.test/api/user/book/requests
+accept: */*
+Authorization: Bearer {{sender_token}}
+Content-Type: application/x-www-form-urlencoded
+
+###list booking for traveler
+
+POST http://luggin-api-prod.test/api/user/book/cancel?luggage_request_id={{request_id}}
+accept: */*
+Authorization: Bearer {{sender_token}}
+Content-Type: application/x-www-form-urlencoded
+
+###list booking for traveler
+
+POST http://luggin-api-prod.test/api/user/book/requests
+accept: */*
+Authorization: Bearer {{traveler_token}}
+Content-Type: application/x-www-form-urlencoded
+
+### Confirm delivery
+
+POST http://luggin-api-prod.test/api/user/book/delivery/confirmation?luggage_request_id={{request_id}}
+accept: */*
+Authorization: Bearer {{sender_token}}
+Content-Type: application/x-www-form-urlencoded
+
+### GET Balance
+
+POST http://luggin-api-prod.test/api/user/wallet/my-balance
+accept: */*
+Authorization: Bearer {{traveler_token}}
+Content-Type: application/x-www-form-urlencoded
+
+### GET Balance
+
+POST http://luggin-api-prod.test/api/user/wallet/my-balance
+accept: */*
+Authorization: Bearer {{sender_token}}
+Content-Type: application/x-www-form-urlencoded
+
+### GET Balance
+
+POST http://luggin-api-prod.test/api/user/wallet/my-activity
+accept: */*
+Authorization: Bearer {{traveler_token}}
+Content-Type: application/x-www-form-urlencoded
+
+### Cashout money to traveler stripe account
+
+POST http://luggin-api-prod.test/api/user/wallet/cash-out
+accept: */*
+Authorization: Bearer {{traveler_token}}
+Content-Type: application/json
+
+{
+    "amount": 100,
+    "provider_id": 2,
+    "ccExpiryYear": 2024,
+    "cvvNumber": 123
+}
+
+### Create stripe connect account for cash-out
+POST http://luggin-api-prod.test/api/user/stripe/create
+accept: */*
+Authorization: Bearer {{traveler_token}}
+Content-Type: application/json
+
+{
+    "business_profile": {
+        "mcc": null,
+        "name": null,
+        "product_description": null,
+        "support_address": null,
+        "support_email": null,
+        "support_phone": "",
+        "support_url": "https://luggin.fr/",
+        "url": "https://luggin.fr/"
+    }
+}
+
+### GET Balance
+
+POST http://luggin-api-prod.test/api/user/wallet/my-activity
+accept: */*
+Authorization: Bearer {{sender_token}}
+Content-Type: application/x-www-form-urlencoded

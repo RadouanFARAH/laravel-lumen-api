@@ -1,0 +1,1978 @@
+[
+    {
+        "id": 1,
+        "name": "Afghanistan",
+        "code": "AFG",
+        "calling_code": "93",
+        "currency": "AFN",
+        "flag": "https:\/\/restcountries.eu\/data\/afg.svg"
+    },
+    {
+        "id": 3,
+        "name": "Albania",
+        "code": "ALB",
+        "calling_code": "355",
+        "currency": "ALL",
+        "flag": "https:\/\/restcountries.eu\/data\/alb.svg"
+    },
+    {
+        "id": 4,
+        "name": "Algeria",
+        "code": "DZA",
+        "calling_code": "213",
+        "currency": "DZD",
+        "flag": "https:\/\/restcountries.eu\/data\/dza.svg"
+    },
+    {
+        "id": 5,
+        "name": "American Samoa",
+        "code": "ASM",
+        "calling_code": "1684",
+        "currency": "USD",
+        "flag": "https:\/\/restcountries.eu\/data\/asm.svg"
+    },
+    {
+        "id": 6,
+        "name": "Andorra",
+        "code": "AND",
+        "calling_code": "376",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/and.svg"
+    },
+    {
+        "id": 7,
+        "name": "Angola",
+        "code": "AGO",
+        "calling_code": "244",
+        "currency": "AOA",
+        "flag": "https:\/\/restcountries.eu\/data\/ago.svg"
+    },
+    {
+        "id": 8,
+        "name": "Anguilla",
+        "code": "AIA",
+        "calling_code": "1264",
+        "currency": "XCD",
+        "flag": "https:\/\/restcountries.eu\/data\/aia.svg"
+    },
+    {
+        "id": 9,
+        "name": "Antarctica",
+        "code": "ATA",
+        "calling_code": "672",
+        "currency": "AUD",
+        "flag": "https:\/\/restcountries.eu\/data\/ata.svg"
+    },
+    {
+        "id": 10,
+        "name": "Antigua and Barbuda",
+        "code": "ATG",
+        "calling_code": "1268",
+        "currency": "XCD",
+        "flag": "https:\/\/restcountries.eu\/data\/atg.svg"
+    },
+    {
+        "id": 11,
+        "name": "Argentina",
+        "code": "ARG",
+        "calling_code": "54",
+        "currency": "ARS",
+        "flag": "https:\/\/restcountries.eu\/data\/arg.svg"
+    },
+    {
+        "id": 12,
+        "name": "Armenia",
+        "code": "ARM",
+        "calling_code": "374",
+        "currency": "AMD",
+        "flag": "https:\/\/restcountries.eu\/data\/arm.svg"
+    },
+    {
+        "id": 13,
+        "name": "Aruba",
+        "code": "ABW",
+        "calling_code": "297",
+        "currency": "AWG",
+        "flag": "https:\/\/restcountries.eu\/data\/abw.svg"
+    },
+    {
+        "id": 14,
+        "name": "Australia",
+        "code": "AUS",
+        "calling_code": "61",
+        "currency": "AUD",
+        "flag": "https:\/\/restcountries.eu\/data\/aus.svg"
+    },
+    {
+        "id": 15,
+        "name": "Austria",
+        "code": "AUT",
+        "calling_code": "43",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/aut.svg"
+    },
+    {
+        "id": 16,
+        "name": "Azerbaijan",
+        "code": "AZE",
+        "calling_code": "994",
+        "currency": "AZN",
+        "flag": "https:\/\/restcountries.eu\/data\/aze.svg"
+    },
+    {
+        "id": 17,
+        "name": "Bahamas",
+        "code": "BHS",
+        "calling_code": "1242",
+        "currency": "BSD",
+        "flag": "https:\/\/restcountries.eu\/data\/bhs.svg"
+    },
+    {
+        "id": 18,
+        "name": "Bahrain",
+        "code": "BHR",
+        "calling_code": "973",
+        "currency": "BHD",
+        "flag": "https:\/\/restcountries.eu\/data\/bhr.svg"
+    },
+    {
+        "id": 19,
+        "name": "Bangladesh",
+        "code": "BGD",
+        "calling_code": "880",
+        "currency": "BDT",
+        "flag": "https:\/\/restcountries.eu\/data\/bgd.svg"
+    },
+    {
+        "id": 20,
+        "name": "Barbados",
+        "code": "BRB",
+        "calling_code": "1246",
+        "currency": "BBD",
+        "flag": "https:\/\/restcountries.eu\/data\/brb.svg"
+    },
+    {
+        "id": 21,
+        "name": "Belarus",
+        "code": "BLR",
+        "calling_code": "375",
+        "currency": "BYN",
+        "flag": "https:\/\/restcountries.eu\/data\/blr.svg"
+    },
+    {
+        "id": 22,
+        "name": "Belgium",
+        "code": "BEL",
+        "calling_code": "32",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/bel.svg"
+    },
+    {
+        "id": 23,
+        "name": "Belize",
+        "code": "BLZ",
+        "calling_code": "501",
+        "currency": "BZD",
+        "flag": "https:\/\/restcountries.eu\/data\/blz.svg"
+    },
+    {
+        "id": 24,
+        "name": "Benin",
+        "code": "BEN",
+        "calling_code": "229",
+        "currency": "XOF",
+        "flag": "https:\/\/restcountries.eu\/data\/ben.svg"
+    },
+    {
+        "id": 25,
+        "name": "Bermuda",
+        "code": "BMU",
+        "calling_code": "1441",
+        "currency": "BMD",
+        "flag": "https:\/\/restcountries.eu\/data\/bmu.svg"
+    },
+    {
+        "id": 26,
+        "name": "Bhutan",
+        "code": "BTN",
+        "calling_code": "975",
+        "currency": "BTN",
+        "flag": "https:\/\/restcountries.eu\/data\/btn.svg"
+    },
+    {
+        "id": 27,
+        "name": "Bolivia (Plurinational State of)",
+        "code": "BOL",
+        "calling_code": "591",
+        "currency": "BOB",
+        "flag": "https:\/\/restcountries.eu\/data\/bol.svg"
+    },
+    {
+        "id": 28,
+        "name": "Bonaire, Sint Eustatius and Saba",
+        "code": "BES",
+        "calling_code": "5997",
+        "currency": "USD",
+        "flag": "https:\/\/restcountries.eu\/data\/bes.svg"
+    },
+    {
+        "id": 29,
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "calling_code": "387",
+        "currency": "BAM",
+        "flag": "https:\/\/restcountries.eu\/data\/bih.svg"
+    },
+    {
+        "id": 30,
+        "name": "Botswana",
+        "code": "BWA",
+        "calling_code": "267",
+        "currency": "BWP",
+        "flag": "https:\/\/restcountries.eu\/data\/bwa.svg"
+    },
+    {
+        "id": 31,
+        "name": "Bouvet Island",
+        "code": "BVT",
+        "calling_code": "",
+        "currency": "NOK",
+        "flag": "https:\/\/restcountries.eu\/data\/bvt.svg"
+    },
+    {
+        "id": 32,
+        "name": "Brazil",
+        "code": "BRA",
+        "calling_code": "55",
+        "currency": "BRL",
+        "flag": "https:\/\/restcountries.eu\/data\/bra.svg"
+    },
+    {
+        "id": 33,
+        "name": "British Indian Ocean Territory",
+        "code": "IOT",
+        "calling_code": "246",
+        "currency": "USD",
+        "flag": "https:\/\/restcountries.eu\/data\/iot.svg"
+    },
+    {
+        "id": 34,
+        "name": "United States Minor Outlying Islands",
+        "code": "UMI",
+        "calling_code": "",
+        "currency": "USD",
+        "flag": "https:\/\/restcountries.eu\/data\/umi.svg"
+    },
+    {
+        "id": 36,
+        "name": "Virgin Islands (U.S.)",
+        "code": "VIR",
+        "calling_code": "1 340",
+        "currency": "USD",
+        "flag": "https:\/\/restcountries.eu\/data\/vir.svg"
+    },
+    {
+        "id": 37,
+        "name": "Brunei Darussalam",
+        "code": "BRN",
+        "calling_code": "673",
+        "currency": "BND",
+        "flag": "https:\/\/restcountries.eu\/data\/brn.svg"
+    },
+    {
+        "id": 38,
+        "name": "Bulgaria",
+        "code": "BGR",
+        "calling_code": "359",
+        "currency": "BGN",
+        "flag": "https:\/\/restcountries.eu\/data\/bgr.svg"
+    },
+    {
+        "id": 39,
+        "name": "Burkina Faso",
+        "code": "BFA",
+        "calling_code": "226",
+        "currency": "XOF",
+        "flag": "https:\/\/restcountries.eu\/data\/bfa.svg"
+    },
+    {
+        "id": 40,
+        "name": "Burundi",
+        "code": "BDI",
+        "calling_code": "257",
+        "currency": "BIF",
+        "flag": "https:\/\/restcountries.eu\/data\/bdi.svg"
+    },
+    {
+        "id": 41,
+        "name": "Cambodia",
+        "code": "KHM",
+        "calling_code": "855",
+        "currency": "KHR",
+        "flag": "https:\/\/restcountries.eu\/data\/khm.svg"
+    },
+    {
+        "id": 42,
+        "name": "Cameroon",
+        "code": "CMR",
+        "calling_code": "237",
+        "currency": "XAF",
+        "flag": "https:\/\/restcountries.eu\/data\/cmr.svg"
+    },
+    {
+        "id": 43,
+        "name": "Canada",
+        "code": "CAN",
+        "calling_code": "1",
+        "currency": "CAD",
+        "flag": "https:\/\/restcountries.eu\/data\/can.svg"
+    },
+    {
+        "id": 44,
+        "name": "Cabo Verde",
+        "code": "CPV",
+        "calling_code": "238",
+        "currency": "CVE",
+        "flag": "https:\/\/restcountries.eu\/data\/cpv.svg"
+    },
+    {
+        "id": 45,
+        "name": "Cayman Islands",
+        "code": "CYM",
+        "calling_code": "1345",
+        "currency": "KYD",
+        "flag": "https:\/\/restcountries.eu\/data\/cym.svg"
+    },
+    {
+        "id": 46,
+        "name": "Central African Republic",
+        "code": "CAF",
+        "calling_code": "236",
+        "currency": "XAF",
+        "flag": "https:\/\/restcountries.eu\/data\/caf.svg"
+    },
+    {
+        "id": 47,
+        "name": "Chad",
+        "code": "TCD",
+        "calling_code": "235",
+        "currency": "XAF",
+        "flag": "https:\/\/restcountries.eu\/data\/tcd.svg"
+    },
+    {
+        "id": 48,
+        "name": "Chile",
+        "code": "CHL",
+        "calling_code": "56",
+        "currency": "CLP",
+        "flag": "https:\/\/restcountries.eu\/data\/chl.svg"
+    },
+    {
+        "id": 49,
+        "name": "China",
+        "code": "CHN",
+        "calling_code": "86",
+        "currency": "CNY",
+        "flag": "https:\/\/restcountries.eu\/data\/chn.svg"
+    },
+    {
+        "id": 50,
+        "name": "Christmas Island",
+        "code": "CXR",
+        "calling_code": "61",
+        "currency": "AUD",
+        "flag": "https:\/\/restcountries.eu\/data\/cxr.svg"
+    },
+    {
+        "id": 51,
+        "name": "Cocos (Keeling) Islands",
+        "code": "CCK",
+        "calling_code": "61",
+        "currency": "AUD",
+        "flag": "https:\/\/restcountries.eu\/data\/cck.svg"
+    },
+    {
+        "id": 52,
+        "name": "Colombia",
+        "code": "COL",
+        "calling_code": "57",
+        "currency": "COP",
+        "flag": "https:\/\/restcountries.eu\/data\/col.svg"
+    },
+    {
+        "id": 53,
+        "name": "Comoros",
+        "code": "COM",
+        "calling_code": "269",
+        "currency": "KMF",
+        "flag": "https:\/\/restcountries.eu\/data\/com.svg"
+    },
+    {
+        "id": 54,
+        "name": "Congo",
+        "code": "COG",
+        "calling_code": "242",
+        "currency": "XAF",
+        "flag": "https:\/\/restcountries.eu\/data\/cog.svg"
+    },
+    {
+        "id": 55,
+        "name": "Congo (Democratic Republic of the)",
+        "code": "COD",
+        "calling_code": "243",
+        "currency": "CDF",
+        "flag": "https:\/\/restcountries.eu\/data\/cod.svg"
+    },
+    {
+        "id": 56,
+        "name": "Cook Islands",
+        "code": "COK",
+        "calling_code": "682",
+        "currency": "NZD",
+        "flag": "https:\/\/restcountries.eu\/data\/cok.svg"
+    },
+    {
+        "id": 57,
+        "name": "Costa Rica",
+        "code": "CRI",
+        "calling_code": "506",
+        "currency": "CRC",
+        "flag": "https:\/\/restcountries.eu\/data\/cri.svg"
+    },
+    {
+        "id": 58,
+        "name": "Croatia",
+        "code": "HRV",
+        "calling_code": "385",
+        "currency": "HRK",
+        "flag": "https:\/\/restcountries.eu\/data\/hrv.svg"
+    },
+    {
+        "id": 59,
+        "name": "Cuba",
+        "code": "CUB",
+        "calling_code": "53",
+        "currency": "CUC",
+        "flag": "https:\/\/restcountries.eu\/data\/cub.svg"
+    },
+    {
+        "id": 60,
+        "name": "Cura\u00e7ao",
+        "code": "CUW",
+        "calling_code": "599",
+        "currency": "ANG",
+        "flag": "https:\/\/restcountries.eu\/data\/cuw.svg"
+    },
+    {
+        "id": 61,
+        "name": "Cyprus",
+        "code": "CYP",
+        "calling_code": "357",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/cyp.svg"
+    },
+    {
+        "id": 62,
+        "name": "Czech Republic",
+        "code": "CZE",
+        "calling_code": "420",
+        "currency": "CZK",
+        "flag": "https:\/\/restcountries.eu\/data\/cze.svg"
+    },
+    {
+        "id": 63,
+        "name": "Denmark",
+        "code": "DNK",
+        "calling_code": "45",
+        "currency": "DKK",
+        "flag": "https:\/\/restcountries.eu\/data\/dnk.svg"
+    },
+    {
+        "id": 64,
+        "name": "Djibouti",
+        "code": "DJI",
+        "calling_code": "253",
+        "currency": "DJF",
+        "flag": "https:\/\/restcountries.eu\/data\/dji.svg"
+    },
+    {
+        "id": 65,
+        "name": "Dominica",
+        "code": "DMA",
+        "calling_code": "1767",
+        "currency": "XCD",
+        "flag": "https:\/\/restcountries.eu\/data\/dma.svg"
+    },
+    {
+        "id": 66,
+        "name": "Dominican Republic",
+        "code": "DOM",
+        "calling_code": "1809",
+        "currency": "DOP",
+        "flag": "https:\/\/restcountries.eu\/data\/dom.svg"
+    },
+    {
+        "id": 67,
+        "name": "Ecuador",
+        "code": "ECU",
+        "calling_code": "593",
+        "currency": "USD",
+        "flag": "https:\/\/restcountries.eu\/data\/ecu.svg"
+    },
+    {
+        "id": 68,
+        "name": "Egypt",
+        "code": "EGY",
+        "calling_code": "20",
+        "currency": "EGP",
+        "flag": "https:\/\/restcountries.eu\/data\/egy.svg"
+    },
+    {
+        "id": 69,
+        "name": "El Salvador",
+        "code": "SLV",
+        "calling_code": "503",
+        "currency": "USD",
+        "flag": "https:\/\/restcountries.eu\/data\/slv.svg"
+    },
+    {
+        "id": 70,
+        "name": "Equatorial Guinea",
+        "code": "GNQ",
+        "calling_code": "240",
+        "currency": "XAF",
+        "flag": "https:\/\/restcountries.eu\/data\/gnq.svg"
+    },
+    {
+        "id": 71,
+        "name": "Eritrea",
+        "code": "ERI",
+        "calling_code": "291",
+        "currency": "ERN",
+        "flag": "https:\/\/restcountries.eu\/data\/eri.svg"
+    },
+    {
+        "id": 72,
+        "name": "Estonia",
+        "code": "EST",
+        "calling_code": "372",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/est.svg"
+    },
+    {
+        "id": 73,
+        "name": "Ethiopia",
+        "code": "ETH",
+        "calling_code": "251",
+        "currency": "ETB",
+        "flag": "https:\/\/restcountries.eu\/data\/eth.svg"
+    },
+    {
+        "id": 74,
+        "name": "Falkland Islands (Malvinas)",
+        "code": "FLK",
+        "calling_code": "500",
+        "currency": "FKP",
+        "flag": "https:\/\/restcountries.eu\/data\/flk.svg"
+    },
+    {
+        "id": 75,
+        "name": "Faroe Islands",
+        "code": "FRO",
+        "calling_code": "298",
+        "currency": "DKK",
+        "flag": "https:\/\/restcountries.eu\/data\/fro.svg"
+    },
+    {
+        "id": 76,
+        "name": "Fiji",
+        "code": "FJI",
+        "calling_code": "679",
+        "currency": "FJD",
+        "flag": "https:\/\/restcountries.eu\/data\/fji.svg"
+    },
+    {
+        "id": 77,
+        "name": "Finland",
+        "code": "FIN",
+        "calling_code": "358",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/fin.svg"
+    },
+    {
+        "id": 78,
+        "name": "France",
+        "code": "FRA",
+        "calling_code": "33",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/fra.svg"
+    },
+    {
+        "id": 79,
+        "name": "French Guiana",
+        "code": "GUF",
+        "calling_code": "594",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/guf.svg"
+    },
+    {
+        "id": 80,
+        "name": "French Polynesia",
+        "code": "PYF",
+        "calling_code": "689",
+        "currency": "XPF",
+        "flag": "https:\/\/restcountries.eu\/data\/pyf.svg"
+    },
+    {
+        "id": 81,
+        "name": "French Southern Territories",
+        "code": "ATF",
+        "calling_code": "",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/atf.svg"
+    },
+    {
+        "id": 82,
+        "name": "Gabon",
+        "code": "GAB",
+        "calling_code": "241",
+        "currency": "XAF",
+        "flag": "https:\/\/restcountries.eu\/data\/gab.svg"
+    },
+    {
+        "id": 83,
+        "name": "Gambia",
+        "code": "GMB",
+        "calling_code": "220",
+        "currency": "GMD",
+        "flag": "https:\/\/restcountries.eu\/data\/gmb.svg"
+    },
+    {
+        "id": 84,
+        "name": "Georgia",
+        "code": "GEO",
+        "calling_code": "995",
+        "currency": "GEL",
+        "flag": "https:\/\/restcountries.eu\/data\/geo.svg"
+    },
+    {
+        "id": 85,
+        "name": "Germany",
+        "code": "DEU",
+        "calling_code": "49",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/deu.svg"
+    },
+    {
+        "id": 86,
+        "name": "Ghana",
+        "code": "GHA",
+        "calling_code": "233",
+        "currency": "GHS",
+        "flag": "https:\/\/restcountries.eu\/data\/gha.svg"
+    },
+    {
+        "id": 87,
+        "name": "Gibraltar",
+        "code": "GIB",
+        "calling_code": "350",
+        "currency": "GIP",
+        "flag": "https:\/\/restcountries.eu\/data\/gib.svg"
+    },
+    {
+        "id": 88,
+        "name": "Greece",
+        "code": "GRC",
+        "calling_code": "30",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/grc.svg"
+    },
+    {
+        "id": 89,
+        "name": "Greenland",
+        "code": "GRL",
+        "calling_code": "299",
+        "currency": "DKK",
+        "flag": "https:\/\/restcountries.eu\/data\/grl.svg"
+    },
+    {
+        "id": 90,
+        "name": "Grenada",
+        "code": "GRD",
+        "calling_code": "1473",
+        "currency": "XCD",
+        "flag": "https:\/\/restcountries.eu\/data\/grd.svg"
+    },
+    {
+        "id": 91,
+        "name": "Guadeloupe",
+        "code": "GLP",
+        "calling_code": "590",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/glp.svg"
+    },
+    {
+        "id": 92,
+        "name": "Guam",
+        "code": "GUM",
+        "calling_code": "1671",
+        "currency": "USD",
+        "flag": "https:\/\/restcountries.eu\/data\/gum.svg"
+    },
+    {
+        "id": 93,
+        "name": "Guatemala",
+        "code": "GTM",
+        "calling_code": "502",
+        "currency": "GTQ",
+        "flag": "https:\/\/restcountries.eu\/data\/gtm.svg"
+    },
+    {
+        "id": 94,
+        "name": "Guernsey",
+        "code": "GGY",
+        "calling_code": "44",
+        "currency": "GBP",
+        "flag": "https:\/\/restcountries.eu\/data\/ggy.svg"
+    },
+    {
+        "id": 95,
+        "name": "Guinea",
+        "code": "GIN",
+        "calling_code": "224",
+        "currency": "GNF",
+        "flag": "https:\/\/restcountries.eu\/data\/gin.svg"
+    },
+    {
+        "id": 96,
+        "name": "Guinea-Bissau",
+        "code": "GNB",
+        "calling_code": "245",
+        "currency": "XOF",
+        "flag": "https:\/\/restcountries.eu\/data\/gnb.svg"
+    },
+    {
+        "id": 97,
+        "name": "Guyana",
+        "code": "GUY",
+        "calling_code": "592",
+        "currency": "GYD",
+        "flag": "https:\/\/restcountries.eu\/data\/guy.svg"
+    },
+    {
+        "id": 98,
+        "name": "Haiti",
+        "code": "HTI",
+        "calling_code": "509",
+        "currency": "HTG",
+        "flag": "https:\/\/restcountries.eu\/data\/hti.svg"
+    },
+    {
+        "id": 99,
+        "name": "Heard Island and McDonald Islands",
+        "code": "HMD",
+        "calling_code": "",
+        "currency": "AUD",
+        "flag": "https:\/\/restcountries.eu\/data\/hmd.svg"
+    },
+    {
+        "id": 100,
+        "name": "Holy See",
+        "code": "VAT",
+        "calling_code": "379",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/vat.svg"
+    },
+    {
+        "id": 101,
+        "name": "Honduras",
+        "code": "HND",
+        "calling_code": "504",
+        "currency": "HNL",
+        "flag": "https:\/\/restcountries.eu\/data\/hnd.svg"
+    },
+    {
+        "id": 102,
+        "name": "Hong Kong",
+        "code": "HKG",
+        "calling_code": "852",
+        "currency": "HKD",
+        "flag": "https:\/\/restcountries.eu\/data\/hkg.svg"
+    },
+    {
+        "id": 103,
+        "name": "Hungary",
+        "code": "HUN",
+        "calling_code": "36",
+        "currency": "HUF",
+        "flag": "https:\/\/restcountries.eu\/data\/hun.svg"
+    },
+    {
+        "id": 104,
+        "name": "Iceland",
+        "code": "ISL",
+        "calling_code": "354",
+        "currency": "ISK",
+        "flag": "https:\/\/restcountries.eu\/data\/isl.svg"
+    },
+    {
+        "id": 105,
+        "name": "India",
+        "code": "IND",
+        "calling_code": "91",
+        "currency": "INR",
+        "flag": "https:\/\/restcountries.eu\/data\/ind.svg"
+    },
+    {
+        "id": 106,
+        "name": "Indonesia",
+        "code": "IDN",
+        "calling_code": "62",
+        "currency": "IDR",
+        "flag": "https:\/\/restcountries.eu\/data\/idn.svg"
+    },
+    {
+        "id": 107,
+        "name": "C\u00f4te d'Ivoire",
+        "code": "CIV",
+        "calling_code": "225",
+        "currency": "XOF",
+        "flag": "https:\/\/restcountries.eu\/data\/civ.svg"
+    },
+    {
+        "id": 108,
+        "name": "Iran (Islamic Republic of)",
+        "code": "IRN",
+        "calling_code": "98",
+        "currency": "IRR",
+        "flag": "https:\/\/restcountries.eu\/data\/irn.svg"
+    },
+    {
+        "id": 109,
+        "name": "Iraq",
+        "code": "IRQ",
+        "calling_code": "964",
+        "currency": "IQD",
+        "flag": "https:\/\/restcountries.eu\/data\/irq.svg"
+    },
+    {
+        "id": 110,
+        "name": "Ireland",
+        "code": "IRL",
+        "calling_code": "353",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/irl.svg"
+    },
+    {
+        "id": 111,
+        "name": "Isle of Man",
+        "code": "IMN",
+        "calling_code": "44",
+        "currency": "GBP",
+        "flag": "https:\/\/restcountries.eu\/data\/imn.svg"
+    },
+    {
+        "id": 112,
+        "name": "Israel",
+        "code": "ISR",
+        "calling_code": "972",
+        "currency": "ILS",
+        "flag": "https:\/\/restcountries.eu\/data\/isr.svg"
+    },
+    {
+        "id": 113,
+        "name": "Italy",
+        "code": "ITA",
+        "calling_code": "39",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/ita.svg"
+    },
+    {
+        "id": 114,
+        "name": "Jamaica",
+        "code": "JAM",
+        "calling_code": "1876",
+        "currency": "JMD",
+        "flag": "https:\/\/restcountries.eu\/data\/jam.svg"
+    },
+    {
+        "id": 115,
+        "name": "Japan",
+        "code": "JPN",
+        "calling_code": "81",
+        "currency": "JPY",
+        "flag": "https:\/\/restcountries.eu\/data\/jpn.svg"
+    },
+    {
+        "id": 116,
+        "name": "Jersey",
+        "code": "JEY",
+        "calling_code": "44",
+        "currency": "GBP",
+        "flag": "https:\/\/restcountries.eu\/data\/jey.svg"
+    },
+    {
+        "id": 117,
+        "name": "Jordan",
+        "code": "JOR",
+        "calling_code": "962",
+        "currency": "JOD",
+        "flag": "https:\/\/restcountries.eu\/data\/jor.svg"
+    },
+    {
+        "id": 118,
+        "name": "Kazakhstan",
+        "code": "KAZ",
+        "calling_code": "76",
+        "currency": "KZT",
+        "flag": "https:\/\/restcountries.eu\/data\/kaz.svg"
+    },
+    {
+        "id": 119,
+        "name": "Kenya",
+        "code": "KEN",
+        "calling_code": "254",
+        "currency": "KES",
+        "flag": "https:\/\/restcountries.eu\/data\/ken.svg"
+    },
+    {
+        "id": 120,
+        "name": "Kiribati",
+        "code": "KIR",
+        "calling_code": "686",
+        "currency": "AUD",
+        "flag": "https:\/\/restcountries.eu\/data\/kir.svg"
+    },
+    {
+        "id": 121,
+        "name": "Kuwait",
+        "code": "KWT",
+        "calling_code": "965",
+        "currency": "KWD",
+        "flag": "https:\/\/restcountries.eu\/data\/kwt.svg"
+    },
+    {
+        "id": 122,
+        "name": "Kyrgyzstan",
+        "code": "KGZ",
+        "calling_code": "996",
+        "currency": "KGS",
+        "flag": "https:\/\/restcountries.eu\/data\/kgz.svg"
+    },
+    {
+        "id": 123,
+        "name": "Lao People's Democratic Republic",
+        "code": "LAO",
+        "calling_code": "856",
+        "currency": "LAK",
+        "flag": "https:\/\/restcountries.eu\/data\/lao.svg"
+    },
+    {
+        "id": 124,
+        "name": "Latvia",
+        "code": "LVA",
+        "calling_code": "371",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/lva.svg"
+    },
+    {
+        "id": 125,
+        "name": "Lebanon",
+        "code": "LBN",
+        "calling_code": "961",
+        "currency": "LBP",
+        "flag": "https:\/\/restcountries.eu\/data\/lbn.svg"
+    },
+    {
+        "id": 126,
+        "name": "Lesotho",
+        "code": "LSO",
+        "calling_code": "266",
+        "currency": "LSL",
+        "flag": "https:\/\/restcountries.eu\/data\/lso.svg"
+    },
+    {
+        "id": 127,
+        "name": "Liberia",
+        "code": "LBR",
+        "calling_code": "231",
+        "currency": "LRD",
+        "flag": "https:\/\/restcountries.eu\/data\/lbr.svg"
+    },
+    {
+        "id": 128,
+        "name": "Libya",
+        "code": "LBY",
+        "calling_code": "218",
+        "currency": "LYD",
+        "flag": "https:\/\/restcountries.eu\/data\/lby.svg"
+    },
+    {
+        "id": 129,
+        "name": "Liechtenstein",
+        "code": "LIE",
+        "calling_code": "423",
+        "currency": "CHF",
+        "flag": "https:\/\/restcountries.eu\/data\/lie.svg"
+    },
+    {
+        "id": 130,
+        "name": "Lithuania",
+        "code": "LTU",
+        "calling_code": "370",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/ltu.svg"
+    },
+    {
+        "id": 131,
+        "name": "Luxembourg",
+        "code": "LUX",
+        "calling_code": "352",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/lux.svg"
+    },
+    {
+        "id": 132,
+        "name": "Macao",
+        "code": "MAC",
+        "calling_code": "853",
+        "currency": "MOP",
+        "flag": "https:\/\/restcountries.eu\/data\/mac.svg"
+    },
+    {
+        "id": 133,
+        "name": "Macedonia (the former Yugoslav Republic of)",
+        "code": "MKD",
+        "calling_code": "389",
+        "currency": "MKD",
+        "flag": "https:\/\/restcountries.eu\/data\/mkd.svg"
+    },
+    {
+        "id": 134,
+        "name": "Madagascar",
+        "code": "MDG",
+        "calling_code": "261",
+        "currency": "MGA",
+        "flag": "https:\/\/restcountries.eu\/data\/mdg.svg"
+    },
+    {
+        "id": 135,
+        "name": "Malawi",
+        "code": "MWI",
+        "calling_code": "265",
+        "currency": "MWK",
+        "flag": "https:\/\/restcountries.eu\/data\/mwi.svg"
+    },
+    {
+        "id": 136,
+        "name": "Malaysia",
+        "code": "MYS",
+        "calling_code": "60",
+        "currency": "MYR",
+        "flag": "https:\/\/restcountries.eu\/data\/mys.svg"
+    },
+    {
+        "id": 137,
+        "name": "Maldives",
+        "code": "MDV",
+        "calling_code": "960",
+        "currency": "MVR",
+        "flag": "https:\/\/restcountries.eu\/data\/mdv.svg"
+    },
+    {
+        "id": 138,
+        "name": "Mali",
+        "code": "MLI",
+        "calling_code": "223",
+        "currency": "XOF",
+        "flag": "https:\/\/restcountries.eu\/data\/mli.svg"
+    },
+    {
+        "id": 139,
+        "name": "Malta",
+        "code": "MLT",
+        "calling_code": "356",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/mlt.svg"
+    },
+    {
+        "id": 140,
+        "name": "Marshall Islands",
+        "code": "MHL",
+        "calling_code": "692",
+        "currency": "USD",
+        "flag": "https:\/\/restcountries.eu\/data\/mhl.svg"
+    },
+    {
+        "id": 141,
+        "name": "Martinique",
+        "code": "MTQ",
+        "calling_code": "596",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/mtq.svg"
+    },
+    {
+        "id": 142,
+        "name": "Mauritania",
+        "code": "MRT",
+        "calling_code": "222",
+        "currency": "MRO",
+        "flag": "https:\/\/restcountries.eu\/data\/mrt.svg"
+    },
+    {
+        "id": 143,
+        "name": "Mauritius",
+        "code": "MUS",
+        "calling_code": "230",
+        "currency": "MUR",
+        "flag": "https:\/\/restcountries.eu\/data\/mus.svg"
+    },
+    {
+        "id": 144,
+        "name": "Mayotte",
+        "code": "MYT",
+        "calling_code": "262",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/myt.svg"
+    },
+    {
+        "id": 145,
+        "name": "Mexico",
+        "code": "MEX",
+        "calling_code": "52",
+        "currency": "MXN",
+        "flag": "https:\/\/restcountries.eu\/data\/mex.svg"
+    },
+    {
+        "id": 147,
+        "name": "Moldova (Republic of)",
+        "code": "MDA",
+        "calling_code": "373",
+        "currency": "MDL",
+        "flag": "https:\/\/restcountries.eu\/data\/mda.svg"
+    },
+    {
+        "id": 148,
+        "name": "Monaco",
+        "code": "MCO",
+        "calling_code": "377",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/mco.svg"
+    },
+    {
+        "id": 149,
+        "name": "Mongolia",
+        "code": "MNG",
+        "calling_code": "976",
+        "currency": "MNT",
+        "flag": "https:\/\/restcountries.eu\/data\/mng.svg"
+    },
+    {
+        "id": 150,
+        "name": "Montenegro",
+        "code": "MNE",
+        "calling_code": "382",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/mne.svg"
+    },
+    {
+        "id": 151,
+        "name": "Montserrat",
+        "code": "MSR",
+        "calling_code": "1664",
+        "currency": "XCD",
+        "flag": "https:\/\/restcountries.eu\/data\/msr.svg"
+    },
+    {
+        "id": 152,
+        "name": "Morocco",
+        "code": "MAR",
+        "calling_code": "212",
+        "currency": "MAD",
+        "flag": "https:\/\/restcountries.eu\/data\/mar.svg"
+    },
+    {
+        "id": 153,
+        "name": "Mozambique",
+        "code": "MOZ",
+        "calling_code": "258",
+        "currency": "MZN",
+        "flag": "https:\/\/restcountries.eu\/data\/moz.svg"
+    },
+    {
+        "id": 154,
+        "name": "Myanmar",
+        "code": "MMR",
+        "calling_code": "95",
+        "currency": "MMK",
+        "flag": "https:\/\/restcountries.eu\/data\/mmr.svg"
+    },
+    {
+        "id": 155,
+        "name": "Namibia",
+        "code": "NAM",
+        "calling_code": "264",
+        "currency": "NAD",
+        "flag": "https:\/\/restcountries.eu\/data\/nam.svg"
+    },
+    {
+        "id": 156,
+        "name": "Nauru",
+        "code": "NRU",
+        "calling_code": "674",
+        "currency": "AUD",
+        "flag": "https:\/\/restcountries.eu\/data\/nru.svg"
+    },
+    {
+        "id": 157,
+        "name": "Nepal",
+        "code": "NPL",
+        "calling_code": "977",
+        "currency": "NPR",
+        "flag": "https:\/\/restcountries.eu\/data\/npl.svg"
+    },
+    {
+        "id": 158,
+        "name": "Netherlands",
+        "code": "NLD",
+        "calling_code": "31",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/nld.svg"
+    },
+    {
+        "id": 159,
+        "name": "New Caledonia",
+        "code": "NCL",
+        "calling_code": "687",
+        "currency": "XPF",
+        "flag": "https:\/\/restcountries.eu\/data\/ncl.svg"
+    },
+    {
+        "id": 160,
+        "name": "New Zealand",
+        "code": "NZL",
+        "calling_code": "64",
+        "currency": "NZD",
+        "flag": "https:\/\/restcountries.eu\/data\/nzl.svg"
+    },
+    {
+        "id": 161,
+        "name": "Nicaragua",
+        "code": "NIC",
+        "calling_code": "505",
+        "currency": "NIO",
+        "flag": "https:\/\/restcountries.eu\/data\/nic.svg"
+    },
+    {
+        "id": 162,
+        "name": "Niger",
+        "code": "NER",
+        "calling_code": "227",
+        "currency": "XOF",
+        "flag": "https:\/\/restcountries.eu\/data\/ner.svg"
+    },
+    {
+        "id": 163,
+        "name": "Nigeria",
+        "code": "NGA",
+        "calling_code": "234",
+        "currency": "NGN",
+        "flag": "https:\/\/restcountries.eu\/data\/nga.svg"
+    },
+    {
+        "id": 164,
+        "name": "Niue",
+        "code": "NIU",
+        "calling_code": "683",
+        "currency": "NZD",
+        "flag": "https:\/\/restcountries.eu\/data\/niu.svg"
+    },
+    {
+        "id": 165,
+        "name": "Norfolk Island",
+        "code": "NFK",
+        "calling_code": "672",
+        "currency": "AUD",
+        "flag": "https:\/\/restcountries.eu\/data\/nfk.svg"
+    },
+    {
+        "id": 166,
+        "name": "Korea (Democratic People's Republic of)",
+        "code": "PRK",
+        "calling_code": "850",
+        "currency": "KPW",
+        "flag": "https:\/\/restcountries.eu\/data\/prk.svg"
+    },
+    {
+        "id": 167,
+        "name": "Northern Mariana Islands",
+        "code": "MNP",
+        "calling_code": "1670",
+        "currency": "USD",
+        "flag": "https:\/\/restcountries.eu\/data\/mnp.svg"
+    },
+    {
+        "id": 168,
+        "name": "Norway",
+        "code": "NOR",
+        "calling_code": "47",
+        "currency": "NOK",
+        "flag": "https:\/\/restcountries.eu\/data\/nor.svg"
+    },
+    {
+        "id": 169,
+        "name": "Oman",
+        "code": "OMN",
+        "calling_code": "968",
+        "currency": "OMR",
+        "flag": "https:\/\/restcountries.eu\/data\/omn.svg"
+    },
+    {
+        "id": 170,
+        "name": "Pakistan",
+        "code": "PAK",
+        "calling_code": "92",
+        "currency": "PKR",
+        "flag": "https:\/\/restcountries.eu\/data\/pak.svg"
+    },
+    {
+        "id": 171,
+        "name": "Palau",
+        "code": "PLW",
+        "calling_code": "680",
+        "currency": "(none)",
+        "flag": "https:\/\/restcountries.eu\/data\/plw.svg"
+    },
+    {
+        "id": 172,
+        "name": "Palestine, State of",
+        "code": "PSE",
+        "calling_code": "970",
+        "currency": "ILS",
+        "flag": "https:\/\/restcountries.eu\/data\/pse.svg"
+    },
+    {
+        "id": 173,
+        "name": "Panama",
+        "code": "PAN",
+        "calling_code": "507",
+        "currency": "PAB",
+        "flag": "https:\/\/restcountries.eu\/data\/pan.svg"
+    },
+    {
+        "id": 174,
+        "name": "Papua New Guinea",
+        "code": "PNG",
+        "calling_code": "675",
+        "currency": "PGK",
+        "flag": "https:\/\/restcountries.eu\/data\/png.svg"
+    },
+    {
+        "id": 175,
+        "name": "Paraguay",
+        "code": "PRY",
+        "calling_code": "595",
+        "currency": "PYG",
+        "flag": "https:\/\/restcountries.eu\/data\/pry.svg"
+    },
+    {
+        "id": 176,
+        "name": "Peru",
+        "code": "PER",
+        "calling_code": "51",
+        "currency": "PEN",
+        "flag": "https:\/\/restcountries.eu\/data\/per.svg"
+    },
+    {
+        "id": 177,
+        "name": "Philippines",
+        "code": "PHL",
+        "calling_code": "63",
+        "currency": "PHP",
+        "flag": "https:\/\/restcountries.eu\/data\/phl.svg"
+    },
+    {
+        "id": 178,
+        "name": "Pitcairn",
+        "code": "PCN",
+        "calling_code": "64",
+        "currency": "NZD",
+        "flag": "https:\/\/restcountries.eu\/data\/pcn.svg"
+    },
+    {
+        "id": 179,
+        "name": "Poland",
+        "code": "POL",
+        "calling_code": "48",
+        "currency": "PLN",
+        "flag": "https:\/\/restcountries.eu\/data\/pol.svg"
+    },
+    {
+        "id": 180,
+        "name": "Portugal",
+        "code": "PRT",
+        "calling_code": "351",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/prt.svg"
+    },
+    {
+        "id": 181,
+        "name": "Puerto Rico",
+        "code": "PRI",
+        "calling_code": "1787",
+        "currency": "USD",
+        "flag": "https:\/\/restcountries.eu\/data\/pri.svg"
+    },
+    {
+        "id": 182,
+        "name": "Qatar",
+        "code": "QAT",
+        "calling_code": "974",
+        "currency": "QAR",
+        "flag": "https:\/\/restcountries.eu\/data\/qat.svg"
+    },
+    {
+        "id": 183,
+        "name": "Republic of Kosovo",
+        "code": "KOS",
+        "calling_code": "383",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/kos.svg"
+    },
+    {
+        "id": 184,
+        "name": "R\u00e9union",
+        "code": "REU",
+        "calling_code": "262",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/reu.svg"
+    },
+    {
+        "id": 185,
+        "name": "Romania",
+        "code": "ROU",
+        "calling_code": "40",
+        "currency": "RON",
+        "flag": "https:\/\/restcountries.eu\/data\/rou.svg"
+    },
+    {
+        "id": 186,
+        "name": "Russian Federation",
+        "code": "RUS",
+        "calling_code": "7",
+        "currency": "RUB",
+        "flag": "https:\/\/restcountries.eu\/data\/rus.svg"
+    },
+    {
+        "id": 187,
+        "name": "Rwanda",
+        "code": "RWA",
+        "calling_code": "250",
+        "currency": "RWF",
+        "flag": "https:\/\/restcountries.eu\/data\/rwa.svg"
+    },
+    {
+        "id": 188,
+        "name": "Saint Barth\u00e9lemy",
+        "code": "BLM",
+        "calling_code": "590",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/blm.svg"
+    },
+    {
+        "id": 189,
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "code": "SHN",
+        "calling_code": "290",
+        "currency": "SHP",
+        "flag": "https:\/\/restcountries.eu\/data\/shn.svg"
+    },
+    {
+        "id": 190,
+        "name": "Saint Kitts and Nevis",
+        "code": "KNA",
+        "calling_code": "1869",
+        "currency": "XCD",
+        "flag": "https:\/\/restcountries.eu\/data\/kna.svg"
+    },
+    {
+        "id": 191,
+        "name": "Saint Lucia",
+        "code": "LCA",
+        "calling_code": "1758",
+        "currency": "XCD",
+        "flag": "https:\/\/restcountries.eu\/data\/lca.svg"
+    },
+    {
+        "id": 192,
+        "name": "Saint Martin (French part)",
+        "code": "MAF",
+        "calling_code": "590",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/maf.svg"
+    },
+    {
+        "id": 193,
+        "name": "Saint Pierre and Miquelon",
+        "code": "SPM",
+        "calling_code": "508",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/spm.svg"
+    },
+    {
+        "id": 194,
+        "name": "Saint Vincent and the Grenadines",
+        "code": "VCT",
+        "calling_code": "1784",
+        "currency": "XCD",
+        "flag": "https:\/\/restcountries.eu\/data\/vct.svg"
+    },
+    {
+        "id": 195,
+        "name": "Samoa",
+        "code": "WSM",
+        "calling_code": "685",
+        "currency": "WST",
+        "flag": "https:\/\/restcountries.eu\/data\/wsm.svg"
+    },
+    {
+        "id": 196,
+        "name": "San Marino",
+        "code": "SMR",
+        "calling_code": "378",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/smr.svg"
+    },
+    {
+        "id": 197,
+        "name": "Sao Tome and Principe",
+        "code": "STP",
+        "calling_code": "239",
+        "currency": "STD",
+        "flag": "https:\/\/restcountries.eu\/data\/stp.svg"
+    },
+    {
+        "id": 198,
+        "name": "Saudi Arabia",
+        "code": "SAU",
+        "calling_code": "966",
+        "currency": "SAR",
+        "flag": "https:\/\/restcountries.eu\/data\/sau.svg"
+    },
+    {
+        "id": 199,
+        "name": "Senegal",
+        "code": "SEN",
+        "calling_code": "221",
+        "currency": "XOF",
+        "flag": "https:\/\/restcountries.eu\/data\/sen.svg"
+    },
+    {
+        "id": 200,
+        "name": "Serbia",
+        "code": "SRB",
+        "calling_code": "381",
+        "currency": "RSD",
+        "flag": "https:\/\/restcountries.eu\/data\/srb.svg"
+    },
+    {
+        "id": 201,
+        "name": "Seychelles",
+        "code": "SYC",
+        "calling_code": "248",
+        "currency": "SCR",
+        "flag": "https:\/\/restcountries.eu\/data\/syc.svg"
+    },
+    {
+        "id": 202,
+        "name": "Sierra Leone",
+        "code": "SLE",
+        "calling_code": "232",
+        "currency": "SLL",
+        "flag": "https:\/\/restcountries.eu\/data\/sle.svg"
+    },
+    {
+        "id": 203,
+        "name": "Singapore",
+        "code": "SGP",
+        "calling_code": "65",
+        "currency": "BND",
+        "flag": "https:\/\/restcountries.eu\/data\/sgp.svg"
+    },
+    {
+        "id": 204,
+        "name": "Sint Maarten (Dutch part)",
+        "code": "SXM",
+        "calling_code": "1721",
+        "currency": "ANG",
+        "flag": "https:\/\/restcountries.eu\/data\/sxm.svg"
+    },
+    {
+        "id": 205,
+        "name": "Slovakia",
+        "code": "SVK",
+        "calling_code": "421",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/svk.svg"
+    },
+    {
+        "id": 206,
+        "name": "Slovenia",
+        "code": "SVN",
+        "calling_code": "386",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/svn.svg"
+    },
+    {
+        "id": 207,
+        "name": "Solomon Islands",
+        "code": "SLB",
+        "calling_code": "677",
+        "currency": "SBD",
+        "flag": "https:\/\/restcountries.eu\/data\/slb.svg"
+    },
+    {
+        "id": 208,
+        "name": "Somalia",
+        "code": "SOM",
+        "calling_code": "252",
+        "currency": "SOS",
+        "flag": "https:\/\/restcountries.eu\/data\/som.svg"
+    },
+    {
+        "id": 209,
+        "name": "South Africa",
+        "code": "ZAF",
+        "calling_code": "27",
+        "currency": "ZAR",
+        "flag": "https:\/\/restcountries.eu\/data\/zaf.svg"
+    },
+    {
+        "id": 210,
+        "name": "South Georgia and the South Sandwich Islands",
+        "code": "SGS",
+        "calling_code": "500",
+        "currency": "GBP",
+        "flag": "https:\/\/restcountries.eu\/data\/sgs.svg"
+    },
+    {
+        "id": 211,
+        "name": "Korea (Republic of)",
+        "code": "KOR",
+        "calling_code": "82",
+        "currency": "KRW",
+        "flag": "https:\/\/restcountries.eu\/data\/kor.svg"
+    },
+    {
+        "id": 212,
+        "name": "South Sudan",
+        "code": "SSD",
+        "calling_code": "211",
+        "currency": "SSP",
+        "flag": "https:\/\/restcountries.eu\/data\/ssd.svg"
+    },
+    {
+        "id": 213,
+        "name": "Spain",
+        "code": "ESP",
+        "calling_code": "34",
+        "currency": "EUR",
+        "flag": "https:\/\/restcountries.eu\/data\/esp.svg"
+    },
+    {
+        "id": 214,
+        "name": "Sri Lanka",
+        "code": "LKA",
+        "calling_code": "94",
+        "currency": "LKR",
+        "flag": "https:\/\/restcountries.eu\/data\/lka.svg"
+    },
+    {
+        "id": 215,
+        "name": "Sudan",
+        "code": "SDN",
+        "calling_code": "249",
+        "currency": "SDG",
+        "flag": "https:\/\/restcountries.eu\/data\/sdn.svg"
+    },
+    {
+        "id": 216,
+        "name": "Suriname",
+        "code": "SUR",
+        "calling_code": "597",
+        "currency": "SRD",
+        "flag": "https:\/\/restcountries.eu\/data\/sur.svg"
+    },
+    {
+        "id": 217,
+        "name": "Svalbard and Jan Mayen",
+        "code": "SJM",
+        "calling_code": "4779",
+        "currency": "NOK",
+        "flag": "https:\/\/restcountries.eu\/data\/sjm.svg"
+    },
+    {
+        "id": 218,
+        "name": "Swaziland",
+        "code": "SWZ",
+        "calling_code": "268",
+        "currency": "SZL",
+        "flag": "https:\/\/restcountries.eu\/data\/swz.svg"
+    },
+    {
+        "id": 219,
+        "name": "Sweden",
+        "code": "SWE",
+        "calling_code": "46",
+        "currency": "SEK",
+        "flag": "https:\/\/restcountries.eu\/data\/swe.svg"
+    },
+    {
+        "id": 220,
+        "name": "Switzerland",
+        "code": "CHE",
+        "calling_code": "41",
+        "currency": "CHF",
+        "flag": "https:\/\/restcountries.eu\/data\/che.svg"
+    },
+    {
+        "id": 221,
+        "name": "Syrian Arab Republic",
+        "code": "SYR",
+        "calling_code": "963",
+        "currency": "SYP",
+        "flag": "https:\/\/restcountries.eu\/data\/syr.svg"
+    },
+    {
+        "id": 222,
+        "name": "Taiwan",
+        "code": "TWN",
+        "calling_code": "886",
+        "currency": "TWD",
+        "flag": "https:\/\/restcountries.eu\/data\/twn.svg"
+    },
+    {
+        "id": 223,
+        "name": "Tajikistan",
+        "code": "TJK",
+        "calling_code": "992",
+        "currency": "TJS",
+        "flag": "https:\/\/restcountries.eu\/data\/tjk.svg"
+    },
+    {
+        "id": 224,
+        "name": "Tanzania, United Republic of",
+        "code": "TZA",
+        "calling_code": "255",
+        "currency": "TZS",
+        "flag": "https:\/\/restcountries.eu\/data\/tza.svg"
+    },
+    {
+        "id": 225,
+        "name": "Thailand",
+        "code": "THA",
+        "calling_code": "66",
+        "currency": "THB",
+        "flag": "https:\/\/restcountries.eu\/data\/tha.svg"
+    },
+    {
+        "id": 226,
+        "name": "Timor-Leste",
+        "code": "TLS",
+        "calling_code": "670",
+        "currency": "USD",
+        "flag": "https:\/\/restcountries.eu\/data\/tls.svg"
+    },
+    {
+        "id": 227,
+        "name": "Togo",
+        "code": "TGO",
+        "calling_code": "228",
+        "currency": "XOF",
+        "flag": "https:\/\/restcountries.eu\/data\/tgo.svg"
+    },
+    {
+        "id": 228,
+        "name": "Tokelau",
+        "code": "TKL",
+        "calling_code": "690",
+        "currency": "NZD",
+        "flag": "https:\/\/restcountries.eu\/data\/tkl.svg"
+    },
+    {
+        "id": 229,
+        "name": "Tonga",
+        "code": "TON",
+        "calling_code": "676",
+        "currency": "TOP",
+        "flag": "https:\/\/restcountries.eu\/data\/ton.svg"
+    },
+    {
+        "id": 230,
+        "name": "Trinidad and Tobago",
+        "code": "TTO",
+        "calling_code": "1868",
+        "currency": "TTD",
+        "flag": "https:\/\/restcountries.eu\/data\/tto.svg"
+    },
+    {
+        "id": 231,
+        "name": "Tunisia",
+        "code": "TUN",
+        "calling_code": "216",
+        "currency": "TND",
+        "flag": "https:\/\/restcountries.eu\/data\/tun.svg"
+    },
+    {
+        "id": 232,
+        "name": "Turkey",
+        "code": "TUR",
+        "calling_code": "90",
+        "currency": "TRY",
+        "flag": "https:\/\/restcountries.eu\/data\/tur.svg"
+    },
+    {
+        "id": 233,
+        "name": "Turkmenistan",
+        "code": "TKM",
+        "calling_code": "993",
+        "currency": "TMT",
+        "flag": "https:\/\/restcountries.eu\/data\/tkm.svg"
+    },
+    {
+        "id": 234,
+        "name": "Turks and Caicos Islands",
+        "code": "TCA",
+        "calling_code": "1649",
+        "currency": "USD",
+        "flag": "https:\/\/restcountries.eu\/data\/tca.svg"
+    },
+    {
+        "id": 235,
+        "name": "Tuvalu",
+        "code": "TUV",
+        "calling_code": "688",
+        "currency": "AUD",
+        "flag": "https:\/\/restcountries.eu\/data\/tuv.svg"
+    },
+    {
+        "id": 236,
+        "name": "Uganda",
+        "code": "UGA",
+        "calling_code": "256",
+        "currency": "UGX",
+        "flag": "https:\/\/restcountries.eu\/data\/uga.svg"
+    },
+    {
+        "id": 237,
+        "name": "Ukraine",
+        "code": "UKR",
+        "calling_code": "380",
+        "currency": "UAH",
+        "flag": "https:\/\/restcountries.eu\/data\/ukr.svg"
+    },
+    {
+        "id": 238,
+        "name": "United Arab Emirates",
+        "code": "ARE",
+        "calling_code": "971",
+        "currency": "AED",
+        "flag": "https:\/\/restcountries.eu\/data\/are.svg"
+    },
+    {
+        "id": 239,
+        "name": "United Kingdom of Great Britain and Northern Ireland",
+        "code": "GBR",
+        "calling_code": "44",
+        "currency": "GBP",
+        "flag": "https:\/\/restcountries.eu\/data\/gbr.svg"
+    },
+    {
+        "id": 240,
+        "name": "United States of America",
+        "code": "USA",
+        "calling_code": "1",
+        "currency": "USD",
+        "flag": "https:\/\/restcountries.eu\/data\/usa.svg"
+    },
+    {
+        "id": 241,
+        "name": "Uruguay",
+        "code": "URY",
+        "calling_code": "598",
+        "currency": "UYU",
+        "flag": "https:\/\/restcountries.eu\/data\/ury.svg"
+    },
+    {
+        "id": 242,
+        "name": "Uzbekistan",
+        "code": "UZB",
+        "calling_code": "998",
+        "currency": "UZS",
+        "flag": "https:\/\/restcountries.eu\/data\/uzb.svg"
+    },
+    {
+        "id": 243,
+        "name": "Vanuatu",
+        "code": "VUT",
+        "calling_code": "678",
+        "currency": "VUV",
+        "flag": "https:\/\/restcountries.eu\/data\/vut.svg"
+    },
+    {
+        "id": 244,
+        "name": "Venezuela (Bolivarian Republic of)",
+        "code": "VEN",
+        "calling_code": "58",
+        "currency": "VEF",
+        "flag": "https:\/\/restcountries.eu\/data\/ven.svg"
+    },
+    {
+        "id": 245,
+        "name": "Viet Nam",
+        "code": "VNM",
+        "calling_code": "84",
+        "currency": "VND",
+        "flag": "https:\/\/restcountries.eu\/data\/vnm.svg"
+    },
+    {
+        "id": 246,
+        "name": "Wallis and Futuna",
+        "code": "WLF",
+        "calling_code": "681",
+        "currency": "XPF",
+        "flag": "https:\/\/restcountries.eu\/data\/wlf.svg"
+    },
+    {
+        "id": 247,
+        "name": "Western Sahara",
+        "code": "ESH",
+        "calling_code": "212",
+        "currency": "MAD",
+        "flag": "https:\/\/restcountries.eu\/data\/esh.svg"
+    },
+    {
+        "id": 248,
+        "name": "Yemen",
+        "code": "YEM",
+        "calling_code": "967",
+        "currency": "YER",
+        "flag": "https:\/\/restcountries.eu\/data\/yem.svg"
+    },
+    {
+        "id": 249,
+        "name": "Zambia",
+        "code": "ZMB",
+        "calling_code": "260",
+        "currency": "ZMW",
+        "flag": "https:\/\/restcountries.eu\/data\/zmb.svg"
+    },
+    {
+        "id": 250,
+        "name": "Zimbabwe",
+        "code": "ZWE",
+        "calling_code": "263",
+        "currency": "BWP",
+        "flag": "https:\/\/restcountries.eu\/data\/zwe.svg"
+    }
+]

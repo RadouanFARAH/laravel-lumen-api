@@ -1,0 +1,76 @@
+<?php
+
+namespace App\FreshDesk\Resources;
+
+use App\FreshDesk\Resources\Traits\CategoryTrait;
+use App\FreshDesk\Resources\Traits\DeleteTrait;
+use App\FreshDesk\Resources\Traits\UpdateTrait;
+use App\FreshDesk\Resources\Traits\ViewTrait;
+
+/**
+ * Forum category resource
+ *
+ * This provides access to the knowledge base category resources
+ *
+ * @package Api\Resources
+ */
+class Folder extends AbstractResource
+{
+
+    use CategoryTrait, ViewTrait, UpdateTrait, DeleteTrait;
+
+    /**
+     * The resource endpoint
+     *
+     * @internal
+     * @var string
+     *
+     */
+    protected $endpoint = '/solutions/folders';
+
+    /**
+     * The resource endpoint
+     *
+     * @var string
+     * @internal
+     */
+    protected $categoryEndpoint = '/solutions/categories';
+
+    /**
+     * Creates the category endpoint (for creating folders)
+     *
+     * @param integer $id
+     * @return string
+     * @internal
+     */
+    private function categoryEndpoint($id = null)
+    {
+        return $id === null ? $this->categoryEndpoint : $this->categoryEndpoint . '/' . $id;
+    }
+
+    /**
+     *
+     * Create a folders for a category.
+     *
+     * @param int $id The category Id
+     * @param array $data
+     *
+     * @return array|null
+     * @throws \App\FreshDesk\Exceptions\AccessDeniedException
+     * @throws \App\FreshDesk\Exceptions\ApiException
+     * @throws \App\FreshDesk\Exceptions\AuthenticationException
+     * @throws \App\FreshDesk\Exceptions\ConflictingStateException
+     * @throws \App\FreshDesk\Exceptions\NotFoundException
+     * @throws \App\FreshDesk\Exceptions\RateLimitExceededException
+     * @throws \App\FreshDesk\Exceptions\UnsupportedContentTypeException
+     * @throws \App\FreshDesk\Exceptions\MethodNotAllowedException
+     * @throws \App\FreshDesk\Exceptions\UnsupportedAcceptHeaderException
+     * @throws \App\FreshDesk\Exceptions\ValidationException
+     *@api
+     */
+    public function create($id, array $data)
+    {
+        return $this->api()->request('POST', $this->categoryEndpoint($id), $data);
+    }
+
+}

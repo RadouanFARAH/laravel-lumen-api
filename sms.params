@@ -1,0 +1,183 @@
+10 - sms ecechec de verification tout utilisateur : 
+        $data = [
+        '$link' => "http:linl.linkddd"
+    ];
+    $contents = strtr(file_get_contents(base_path("resources/views/sms/") . "EcheccertificationToutUtilisateur.luggin"), $data);
+
+
+    return $contents;
+
+
+11-  Verif infiorm de vol reussir trajet en ligne interf voyageur :  
+
+       $data = [
+        '$link' => "http:linl.linkddd"
+    ];
+    $contents = strtr(file_get_contents(base_path("resources/views/sms/") . "VérificationInformationsDeVolRéussietrajetenligneInterfacevoyageur.luggin"), $data);
+    
+    return $contents;
+   
+   
+12-
+       $data = [
+        '$link' => "https://wxgvdstv:l!Htfvgrrrrrrr"
+    ];
+    $contents = strtr(file_get_contents(base_path("resources/views/sms/") . "VérificationInformationsDeVolRéussiedemandeenligneInterfaceexpediteur.luggin"), $data);
+
+
+    return $contents;
+
+13- 
+       $data = [
+        '$link' => "https://wxgvdstv:l!Htfvgrrrrrrr"
+    ];
+    $contents = strtr(file_get_contents(base_path("resources/views/sms/") . "VérificationInformationsDeVolRéussieOffreEnvoyéeInterfaceVoyageur.luggin"), $data);
+
+
+    return $contents;
+
+14-  Vérification Informations De Vol Réussie Demande Envoyée Interface Voyageur
+         $data = [
+        '$link' => "https://wxgvdstv:l!Htfvgrrrrrrr"
+    ];
+    $contents = strtr(file_get_contents(base_path("resources/views/sms/") . "VérificationInformationsDeVolRéussieDemandeEnvoyéeInterfaceVoyageur.luggin"), $data);
+
+
+    return $contents;
+
+15-  Echec vérification des informations de vol à la suite de la demande de publication d’une annonce
+         $data = [
+        '$link' => "https://wxgvdstv:l!Htfvgrrrrrrr"
+    ];
+    $contents = strtr(file_get_contents(base_path("resources/views/sms/") . "EchecVérificationDesInformationsDevolaLasuiteDeLaDemandedePublicationduneAnnonce.luggin"), $data);
+
+
+    return $contents;
+
+16-  EchecVérificationInformationsVolSuiteEnvoiOffreDemande
+         $data = [
+        '$link' => "https://wxgvdstv:l!Htfvgrrrrrrr"
+    ];
+    $contents = strtr(file_get_contents(base_path("resources/views/sms/") . "EchecVérificationInformationsVolSuiteEnvoiOffreDemande.luggin"), $data);
+
+
+    return $contents;
+
+18-  Nouveau message
+         $data = [
+        '$link' => "https://wxgvdstv:l!Htfvgrrrrrrr"
+    ];
+    $contents = strtr(file_get_contents(base_path("resources/views/sms/") . "NouveauMessage.luggin"), $data);
+
+
+    return $contents;
+
+19-  Nouvelle Offre
+         $data = [
+        '$link' => "https://wxgvdstv:l!Htfvgrrrrrrr"
+    ];
+    $contents = strtr(file_get_contents(base_path("resources/views/sms/") . "NouvelleOffre.luggin"), $data);
+
+
+    return $contents;
+
+20-  Nouvelle demande de réservation – Interface voyageur
+         $data = [
+        '$nom' => "franky",
+        '$kg' => "10",
+        '$prix' => "230",
+        '$depart' => "Yaounde",
+        '$arrive' => "Toulouse",
+        '$link' => "https://wxgvdstv:l!Htfvgrrrrrrr",
+    ];
+
+
+    $contents = strtr(file_get_contents(base_path("resources/views/sms/") . "NouvelleDemandeReservationInterfaceVoyageur.luggin"), $data);
+
+
+    return $contents;
+
+21-  Invitation à réserver – interface expéditeur
+         $data = [
+        '$nom' => "franky",
+    
+        '$depart' => "Yaounde",
+        '$arrive' => "Toulouse",
+        '$link' => "https://wxgvdstv:l!Htfvgrrrrrrr",
+    ];
+
+
+    $contents = strtr(file_get_contents(base_path("resources/views/sms/") . "InvitationRéserverInterfaceExpéditeur.luggin"), $data);
+
+
+    return $contents;
+
+22-  RéservationAttenteInterfaceVoyageur
+         $data = [
+       $data = [
+        '$nom' => "franky",
+        '$kg' => "10",
+        '$prix' => "230",
+        '$depart' => "Yaounde",
+        '$arrive' => "Toulouse",
+        '$link' => "https://wxgvdstv:l!Htfvgrrrrrrr",
+    ];
+
+
+    $contents = strtr(file_get_contents(base_path("resources/views/sms/") . "RéservationAttenteInterfaceVoyageur.luggin"), $data);
+
+
+    return $contents;
+
+23-  RéservationConfirméeInterfaceVoyageur
+         $data = [
+       $data = [
+        '$nom' => "franky",
+        '$kg' => "10",
+        '$prix' => "230",
+        '$depart' => "Yaounde",
+        '$arrive' => "Toulouse",
+        '$link' => "https://wxgvdstv:l!Htfvgrrrrrrr",
+    ];
+
+
+    $contents = strtr(file_get_contents(base_path("resources/views/sms/") . "RéservationConfirméeInterfaceVoyageur.luggin"), $data);
+
+
+    return $contents;
+
+24-  RéservationAcceptéeInterfaceExpéditeur
+         $data = [
+       $data = [
+        '$nom' => "franky",
+        '$kg' => "10",
+        '$prix' => "230",
+        '$depart' => "Yaounde",
+        '$arrive' => "Toulouse",
+        '$link' => "https://wxgvdstv:l!Htfvgrrrrrrr",
+    ];
+
+
+    $contents = strtr(file_get_contents(base_path("resources/views/sms/") . "RéservationAcceptéeInterfaceExpéditeur.luggin"), $data);
+
+
+    return $contents;
+
+25-  RéservationRefuséeInterfaceExpéditeur
+         $data = [
+       $data = [
+        '$nom' => "franky",
+        '$kg' => "10",
+        '$prix' => "230",
+        '$depart' => "Yaounde",
+        '$arrive' => "Toulouse",
+        '$link' => "https://wxgvdstv:l!Htfvgrrrrrrr",
+    ];
+
+
+    $contents = strtr(file_get_contents(base_path("resources/views/sms/") . "RéservationRefuséeInterfaceExpéditeur.luggin"), $data);
+
+
+    return $contents;
+
+    

@@ -1,0 +1,211 @@
+# curl -X 'POST'
+#  'http://localhost:8000/api/user/parcel/add?parcel_restriction=ANY&allow_split=false&departure_city_id=1&departure_date=2021-11-09&arrival_city_id=2&weight=100&name=Yann%20Yvan&address=Eleveur%20Yaound%C3%A9&phone=0695499969'
+#  -H 'accept: */*'
+#  -H 'Content-Type: multipart/form-data'
+#  -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC91c2VyXC9sb2dpbiIsImlhdCI6MTYzNDM3OTkwOSwibmJmIjoxNjM0Mzc5OTA5LCJqdGkiOiJSZVpsT3FLaFVHUmgzaEtpIiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.O54sN89V2uPm96UmcmaJ_ZgyMTzXhb1ImlcHA80DVW0'
+#  -F 'images[]='
+POST http://localhost:8000/api/user/parcel/add?parcel_restriction=ANY&allow_split=false&departure_city_id=1&departure_date=2021-11-09&arrival_city_id=2&weight=100&name=Yann%20Yvan&address=Eleveur%20Yaound%C3%A9&phone=0695499969&weight_unit_price=10
+accept: */*
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC91c2VyXC9sb2dpbiIsImlhdCI6MTYzNDM3OTkwOSwibmJmIjoxNjM0Mzc5OTA5LCJqdGkiOiJSZVpsT3FLaFVHUmgzaEtpIiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.O54sN89V2uPm96UmcmaJ_ZgyMTzXhb1ImlcHA80DVW0
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="images[]"
+
+
+--WebAppBoundary--
+
+###
+
+# curl -X 'POST'
+#  'http://localhost:8000/api/user/trip/add?parcel_restriction=ANY&fly_number=kldsjflkjslfks&departure_city_id=1&departure_airport_id=2&departure_date=2021-10-12&arrival_city_id=2&arrival_date=2021-10-12&arrival_airport_id=2&available_weight=100&weight_unit_price=12&auto_accept_booking=true&allow_split_luggage=true'
+#  -H 'accept: */*'
+#  -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC91c2VyXC9sb2dpbiIsImlhdCI6MTYzMzk4MzYwOCwibmJmIjoxNjMzOTgzNjA4LCJqdGkiOiJmVVhXNDVuc2Z2Q2hEd3prIiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.xzeUWgbXp_oru5eg2JYbtOKN1mymVr2qLL4yZP_fSjM'
+#  -d ''
+POST http://localhost:8000/api/user/trip/add?parcel_restriction=ANY&fly_number=kldsjflkjslfks&departure_city_id=1&departure_airport_id=2&departure_date=2021-10-12&arrival_city_id=2&arrival_date=2021-10-12&arrival_airport_id=2&available_weight=100&weight_unit_price=12&auto_accept_booking=1&allow_split_luggage=1
+accept: */*
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC91c2VyXC9sb2dpbiIsImlhdCI6MTYzMzk4NDk3NywibmJmIjoxNjMzOTg0OTc3LCJqdGkiOiI3UktXT0dPYzJuS205M3dOIiwic3ViIjozLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.mVEnpVVB6-16lB4I15eFm4y4uLhrJpeXabqxeeBCZS8
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+# curl -X 'POST'
+#  'http://localhost:8000/api/user/trip/mine'
+#  -H 'accept: */*'
+#  -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC91c2VyXC9sb2dpbiIsImlhdCI6MTYzMTcxMTAxMCwibmJmIjoxNjMxNzExMDEwLCJqdGkiOiJmcmt1eWtmaEZndXd1Tk1DIiwic3ViIjoxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.RCfAHNqElSpDsSifqRCL22NlPXO84SBAL3vGQQGPRT8'
+#  -d ''
+POST http://localhost:8000/api/user/trip/mine
+accept: */*
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC91c2VyXC9sb2dpbiIsImlhdCI6MTYzMTcxMTAxMCwibmJmIjoxNjMxNzExMDEwLCJqdGkiOiJmcmt1eWtmaEZndXd1Tk1DIiwic3ViIjoxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.RCfAHNqElSpDsSifqRCL22NlPXO84SBAL3vGQQGPRT8
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+# curl -X 'POST'
+#  'http://localhost:8000/api/user/wallet/cash-in?otp=0695499969&phone=695499969&provider_id=1&luggage_request_id=3'
+#  -H 'accept: */*'
+#  -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC91c2VyXC9sb2dpbiIsImlhdCI6MTYzMDUwNjI0MywibmJmIjoxNjMwNTA2MjQzLCJqdGkiOiJVaWZZdlFBck5pdDZhaWJVIiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.Xd8-UQOnpetV4DQXac2cOcBv8sj3S-eju5KL0yV_T_w' \
+POST http://localhost:8000/api/user/wallet/cash-in?otp=0695499969&phone=695499969&provider_id=2&luggage_request_id=3
+accept: */*
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC91c2VyXC9sb2dpbiIsImlhdCI6MTYzMzk4NDA5MSwibmJmIjoxNjMzOTg0MDkxLCJqdGkiOiJnRkxjMnJUY0s4QjBTN2J5Iiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.uqdX7b0GNPbc6lKeNtbz1gBvwXBPt25NA2yhIW9tmJg
+Content-Type: application/json
+
+{
+    "card_no": "4242 4242 4242 4242",
+    "ccExpiryMonth": 12,
+    "ccExpiryYear": 2024,
+    "cvvNumber": 123
+}
+###
+
+# curl -v -u n5f4yxsMdOJGQbFqB1JM:X -H "Content-Type: application/json" -d '{ "description": "Details about the issue...", "subject": "Support Needed...", "email": "tom@outerspace.com", "priority": 1, "status": 2, "cc_emails": ["ram@freshdesk.com","diana@freshdesk.com"] }' -X POST 'https://newaccount1627999686728.freshdesk.com/api/v2/tickets'
+POST https://newaccount1627999686728.freshdesk.com/api/v2/tickets
+Authorization: Basic n5f4yxsMdOJGQbFqB1JM X
+Content-Type: application/json
+
+{
+    "description": "Details about the issue...",
+    "subject": "Support Needed...",
+    "email": "tom@outerspace.com",
+    "priority": 1,
+    "status": 2,
+    "cc_emails": [
+        "ram@freshdesk.com",
+        "diana@freshdesk.com"
+    ]
+}
+
+###
+
+POST http://localhost:8000/api/user/login?login=admin@luggin.io&password=password
+Content-Type: application/json
+
+
+
+<> 2021-08-05T174007.200.json
+<> 2021-08-05T171723.200.json
+<> 2021-08-05T171702.500.html
+<> 2021-08-05T171631.404.html
+
+### create
+POST http://localhost:8000/api/user/support/create
+Authorization: bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC91c2VyXC9sb2dpbiIsImlhdCI6MTYyODA4MTkyNCwibmJmIjoxNjI4MDgxOTI0LCJqdGkiOiJpMk9NaVpNYmR4VzBlT1FyIiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.x9ZhU81I_T-IyxPzLqIYRaaByybMSKI98A0kmvOc8kc
+Content-Type: application/json
+
+{
+    "description": "Details about the issue...",
+    "subject": "Support Needed...",
+    "email": "tom@outerspace.com",
+    "status": 2
+}
+
+
+<> 2021-08-05T180837.200.json
+<> 2021-08-05T180637.200.json
+<> 2021-08-05T180609.200.json
+<> 2021-08-05T180452.200.json
+<> 2021-08-05T180401.200.json
+<> 2021-08-05T180331.200.json
+<> 2021-08-05T180316.200.json
+<> 2021-08-05T175705.200.json
+<> 2021-08-05T175650.200.json
+<> 2021-08-05T175555.200.json
+<> 2021-08-05T175509.200.json
+<> 2021-08-05T175402.200.json
+<> 2021-08-05T175322.200.json
+<> 2021-08-05T175234.200.json
+<> 2021-08-05T175223.200.json
+<> 2021-08-05T175159.200.json
+<> 2021-08-05T175113.200.json
+<> 2021-08-05T174158.200.json
+<> 2021-08-05T174009.200.json
+<> 2021-08-05T173246.200.json
+<> 2021-08-05T173241.200.json
+<> 2021-08-05T173238.200.json
+<> 2021-08-05T173233.200.json
+<> 2021-08-05T173110.500.json
+<> 2021-08-05T172418.200.json
+<> 2021-08-05T172159.500.json
+<> 2021-08-05T172122.500.json
+<> 2021-08-05T172005.500.json
+<> 2021-08-05T171806.404.json
+<> 2021-08-05T171413.200.json
+<> 2021-08-05T171358.405.json
+
+###
+
+POST http://localhost:8000/api/user/support/tickets
+Accept: application/json
+Authorization: bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC91c2VyXC9sb2dpbiIsImlhdCI6MTYyODA4MTkyNCwibmJmIjoxNjI4MDgxOTI0LCJqdGkiOiJpMk9NaVpNYmR4VzBlT1FyIiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.x9ZhU81I_T-IyxPzLqIYRaaByybMSKI98A0kmvOc8kc
+
+<> 2021-08-05T174010.200.json
+<> 2021-08-05T173933.200.json
+<> 2021-08-05T173400.200.json
+
+
+###
+POST http://localhost:8000/api/user/support/detail
+Content-Type: application/json
+Authorization: bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC91c2VyXC9sb2dpbiIsImlhdCI6MTYyODA4MTkyNCwibmJmIjoxNjI4MDgxOTI0LCJqdGkiOiJpMk9NaVpNYmR4VzBlT1FyIiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.x9ZhU81I_T-IyxPzLqIYRaaByybMSKI98A0kmvOc8kc
+
+{
+    "id": 17
+}
+
+<> 2021-08-05T181210.200.json
+<> 2021-08-05T174134.200.json
+<> 2021-08-05T174011.200.json
+<> 2021-08-05T173926.200.json
+<> 2021-08-05T173809.200.json
+<> 2021-08-05T173737.200.json
+<> 2021-08-05T173713.404.json
+
+
+###
+POST http://localhost:8000/api/user/support/fields
+Accept: application/json
+Authorization: bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC91c2VyXC9sb2dpbiIsImlhdCI6MTYyODA4MTkyNCwibmJmIjoxNjI4MDgxOTI0LCJqdGkiOiJpMk9NaVpNYmR4VzBlT1FyIiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.x9ZhU81I_T-IyxPzLqIYRaaByybMSKI98A0kmvOc8kc
+
+<> 2021-08-05T174559.200.json
+
+
+
+
+### mine
+POST http://localhost:8000/api/user/support/mine
+Accept: application/json
+Authorization: bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC91c2VyXC9sb2dpbiIsImlhdCI6MTYyODA4MTkyNCwibmJmIjoxNjI4MDgxOTI0LCJqdGkiOiJpMk9NaVpNYmR4VzBlT1FyIiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.x9ZhU81I_T-IyxPzLqIYRaaByybMSKI98A0kmvOc8kc
+
+<> 2021-08-05T182621.200.json
+<> 2021-08-05T182245.200.json
+<> 2021-08-05T182159.200.json
+<> 2021-08-05T174559.200.json
+
+
+
+
+###
+POST http://localhost:8000/api/user/support/conversations
+Content-Type: application/json
+Authorization: bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC91c2VyXC9sb2dpbiIsImlhdCI6MTYyODA4MTkyNCwibmJmIjoxNjI4MDgxOTI0LCJqdGkiOiJpMk9NaVpNYmR4VzBlT1FyIiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.x9ZhU81I_T-IyxPzLqIYRaaByybMSKI98A0kmvOc8kc
+
+{
+    "id":17
+}
+
+<> 2021-08-05T182433.200.json
+<> 2021-08-05T182408.200.json
+
+
+
+###
+POST http://localhost:8000/api/user/wallet/mobile-sms-verify
+Content-Type: application/json
+Authorization: bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC91c2VyXC9sb2dpbiIsImlhdCI6MTYyODA4MTkyNCwibmJmIjoxNjI4MDgxOTI0LCJqdGkiOiJpMk9NaVpNYmR4VzBlT1FyIiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.x9ZhU81I_T-IyxPzLqIYRaaByybMSKI98A0kmvOc8kc
+
+{
+    "code":17,
+    "phone":17
+}
+
+
